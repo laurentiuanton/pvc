@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <rect x="0" y="0" width="400" height="100" fill="transparent" />
+  <path d="M70 20 L95 20 L115 80 L90 80 Z" fill="#FFC107" />
+  <path d="M50 20 L75 20 L95 80 L70 80 Z" fill="#0033A0" />
+  <text x="130" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="#0033A0" letter-spacing="1">BARRIER</text>
+</svg>

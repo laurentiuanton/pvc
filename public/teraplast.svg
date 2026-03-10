@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <rect x="0" y="0" width="400" height="100" fill="transparent" />
+  <circle cx="60" cy="50" r="20" fill="#005B9F" />
+  <circle cx="80" cy="50" r="20" fill="#E6EEF5" />
+  <text x="110" y="65%" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="800" fill="#005B9F" letter-spacing="1">TeraPlast</text>
+</svg>
