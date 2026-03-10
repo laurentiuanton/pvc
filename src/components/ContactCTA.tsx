@@ -21,13 +21,13 @@ export function ContactCTA() {
               </p>
 
               <div className="space-y-6">
-                <a href="tel:0254545454" className="flex items-center gap-4 text-zinc-300 hover:text-white transition-colors group">
+                <a href="tel:+40754025294" className="flex items-center gap-4 text-zinc-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex items-center justify-center text-[var(--color-primary)] group-hover:bg-[var(--color-primary)] group-hover:text-white transition-colors shadow-lg">
                     <Phone size={20} />
                   </div>
                   <div>
                     <h4 className="font-semibold font-heading">Sună-ne acum</h4>
-                    <p className="text-zinc-400 font-mono text-lg group-hover:text-white transition-colors">0254 545 454</p>
+                    <p className="text-zinc-400 font-mono text-lg group-hover:text-white transition-colors">+40 754 025 294</p>
                   </div>
                 </a>
 

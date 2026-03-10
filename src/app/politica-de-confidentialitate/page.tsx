@@ -47,7 +47,7 @@ export default function PoliticaConfidentialitatePage() {
 
           <h2 className="text-2xl font-bold text-zinc-900 dark:text-white mt-8 mb-4">5. Drepturile Dumneavoastră</h2>
           <p>
-            Conform legislației, beneficiați de „Dreptul la informare”, „Dreptul de acces”, „Dreptul la rectificare”, „Dreptul la ștergere (dreptul de a fi uitat)”, și „Dreptul la restricționare a prelucrării”. Puteți exercita aceste drepturi prin transmiterea unei cereri informale către datele noastre de contact de pe site (la tel: 0254 545 454). Puteți de asemenea să vă adresați cu o plângere către <a href="https://www.dataprotection.ro/" target="_blank" className="text-blue-500 hover:text-blue-700 underline">A.N.S.P.D.C.P.</a>.
+            Conform legislației, beneficiați de „Dreptul la informare”, „Dreptul de acces”, „Dreptul la rectificare”, „Dreptul la ștergere (dreptul de a fi uitat)”, și „Dreptul la restricționare a prelucrării”. Puteți exercita aceste drepturi prin transmiterea unei cereri informale către datele noastre de contact de pe site (la tel: +40 754 025 294). Puteți de asemenea să vă adresați cu o plângere către <a href="https://www.dataprotection.ro/" target="_blank" className="text-blue-500 hover:text-blue-700 underline">A.N.S.P.D.C.P.</a>.
           </p>
         </div>
       </div>

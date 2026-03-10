@@ -37,7 +37,7 @@ export function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 font-heading">Suport Clienți</h4>
             <div className="space-y-2 text-sm mb-6">
-              <p><strong className="text-zinc-300">Telefon:</strong> <a href="tel:0254545454" className="hover:text-[var(--color-primary)] transition-colors">0254 545 454</a></p>
+              <p><strong className="text-zinc-300">Telefon:</strong> <a href="tel:+40754025294" className="hover:text-[var(--color-primary)] transition-colors">+40 754 025 294</a></p>
               <p><strong className="text-zinc-300">Program:</strong> L-V: 08:00 - 16:00</p>
             </div>
               <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center bg-white rounded-xl p-3 flex-shrink-0 w-56 hover:shadow-lg transition-all border border-zinc-200">

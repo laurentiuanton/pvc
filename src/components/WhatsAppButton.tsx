@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export function WhatsAppButton() {
-  const phoneNumber = "40700000000"; // Număr temporar
+  const phoneNumber = "40754025294"; // Formatul internațional pentru +40 754 025 294
   const message = "Bună ziua! Doresc mai multe informații despre serviciile VitraFrame.";
   const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

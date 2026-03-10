@@ -81,7 +81,7 @@ export function Navbar() {
             })}
           </ul>
           <a
-            href="tel:0254545454"
+            href="tel:+40754025294"
             className={`flex items-center gap-2 px-6 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg active:scale-95 ${
               hasDarkText 
                 ? 'bg-[var(--color-primary)] text-white shadow-blue-900/20 hover:bg-blue-800' 
@@ -128,11 +128,11 @@ export function Navbar() {
             );
           })}
           <a
-            href="tel:0254545454"
+            href="tel:+40754025294"
             className="flex items-center justify-center gap-2 bg-[var(--color-primary)] text-white px-5 py-3 rounded-xl font-medium mt-4"
           >
             <Phone size={18} />
-            Sună acum: 0254 545 454
+            Sună acum: +40 754 025 294
           </a>
         </div>
       )}
