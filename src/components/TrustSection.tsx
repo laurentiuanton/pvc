@@ -4,11 +4,9 @@ import { CountUpStat } from './CountUpStat';
 
 export function TrustSection() {
   const partners = [
-    { name: 'Ramplast', logo: '/ramplast.svg' },
     { name: 'TeraPlast', logo: '/teraplast.svg' },
-    { name: 'Extruplast', logo: '/extruplast.svg' },
-    { name: 'Klass', logo: '/klass.svg' },
-    { name: 'Barrier', logo: '/barrier.svg' }
+    { name: 'ALUPROF', logo: null },
+    { name: 'Profile de clasă A', logo: null }
   ];
 
   return (
@@ -74,7 +72,7 @@ export function TrustSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.956 11.956 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-zinc-900 font-heading">Garanție Extinsă 10 Ani</h3>
+            <h3 className="text-2xl font-bold text-zinc-900 font-heading">Garanție 2 ani, durată minimă de utilizare 10 ani.</h3>
             <p className="text-zinc-600 leading-relaxed text-lg">
               Folosim exclusiv profile de top și feronerie premium. Calitatea lucrărilor noastre ne permite să oferim una dintre cele mai mari garanții de pe piață.
             </p>
@@ -85,22 +83,26 @@ export function TrustSection() {
             <p className="text-sm font-bold text-zinc-400 uppercase tracking-widest text-center mb-10 font-heading">
               Parteneri de încredere / Materiale Folosite
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
               {partners.map((partner) => (
                 <div key={partner.name} className="flex items-center justify-center p-2 hover:scale-110 transition-transform h-20">
-                  <img
-                    src={partner.logo}
-                    alt={`${partner.name} logo`}
-                    className="max-h-12 w-auto object-contain filter brightness-0 hover:brightness-100 opacity-70 hover:opacity-100 transition-all"
-                    loading="lazy"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).style.display = 'none';
-                      const span = document.createElement('span');
-                      span.innerText = partner.name;
-                      span.className = "font-bold text-zinc-500 text-lg";
-                      (e.target as HTMLImageElement).parentNode?.appendChild(span);
-                    }}
-                  />
+                  {partner.logo ? (
+                    <img
+                      src={partner.logo}
+                      alt={`${partner.name} logo`}
+                      className="max-h-12 w-auto object-contain filter brightness-0 hover:brightness-100 opacity-70 hover:opacity-100 transition-all"
+                      loading="lazy"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = 'none';
+                        const span = document.createElement('span');
+                        span.innerText = partner.name;
+                        span.className = "font-bold text-zinc-500 text-lg";
+                        (e.target as HTMLImageElement).parentNode?.appendChild(span);
+                      }}
+                    />
+                  ) : (
+                    <span className="font-bold text-zinc-500 text-lg">{partner.name}</span>
+                  )}
                 </div>
               ))}
             </div>

@@ -31,7 +31,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-2xl text-zinc-400 mb-12 max-w-2xl leading-relaxed font-light">
-            Tâmplărie PVC și Aluminiu premium pentru casa ta. Peste 10 ani de experiență în montaj profesional care izolează perfect fonic și termic.
+            Tâmplărie PVC și Aluminiu premium pentru casa ta realizată cu geam termopan sau tripan. Peste 10 ani de experiență în montaj profesional clasic sau conform standardelor de eficiență energetică.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 mb-16">
@@ -39,7 +39,7 @@ export function Hero() {
               href="#contact"
               className="inline-flex items-center justify-center gap-2 bg-[var(--color-primary)] hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-[var(--color-primary)]/40 active:scale-95"
             >
-              Cere o măsurătoare gratuită
+              Solicită acum o ofertă personalizată
               <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -61,7 +61,7 @@ export function Hero() {
                 <p className="text-zinc-400 text-sm mt-1.5 leading-relaxed">Facturi reduse iarna, răcoare vara.</p>
               </div>
             </div>
-            
+
             <div className="flex items-start gap-5 p-5 rounded-2xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/10 bg-black/20 backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none">
               <div className="bg-zinc-500/10 p-4 rounded-xl text-zinc-300 shrink-0">
                 <VolumeX size={34} strokeWidth={1.5} />
