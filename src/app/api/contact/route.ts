@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+// Main handler for contact form submissions
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
